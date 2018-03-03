@@ -28,3 +28,15 @@ def competicion(dict, cat):
 		elif cat=="Descenso" and i.get("mark")==3:
 			comp.append([i.get("pos"), i.get("team"), i.get("points")])
 	return comp
+
+def pelea(dict, comp):
+	pelea=[]
+	for i in dict.get("table"):
+		if comp=="1" and int(i.get("pos"))<8:
+			pelea.append([i.get("pos"), i.get("team"), i.get("points")])
+		elif comp=="2" and int(i.get("pos"))>4 and int(i.get("pos"))<11:
+			pelea.append([i.get("pos"), i.get("team"), i.get("points")])
+		elif comp=="3" and int(i.get("pos"))>14:
+			pelea.append([i.get("pos"), i.get("team"), i.get("points")])
+	return pelea
+

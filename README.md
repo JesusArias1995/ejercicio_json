@@ -13,4 +13,4 @@ actual de la liga de futbol.
   los equipos que se encuentran en ella.
 - Quinta tendra un menu donde tendrá: Pelea por el campeonato, Pelea por puesto Champions League,
   Pelea por puesto Europa League o Pelea por la salvación. Mostrara los equipos que se encuentran
-  por una pelea por un puesto, en un rango de puntos.
+  por una pelea por un puesto, por rango de posiciones.

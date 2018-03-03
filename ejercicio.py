@@ -22,7 +22,7 @@ while menu!="0":
 
 	if menu=="2":
 		for n in equiposgolesfavor(datos):
-			print(n[0], "GF:", n[1], "GC:", n[2])
+			print(n[0], n[1], "GF:", n[2], "GC:", n[3])
 		menu=input("Elige otra opcion: ")
 
 	if menu=="3":

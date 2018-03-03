@@ -8,7 +8,7 @@ def equiposgolesfavor(dict):
 	equipos=[]
 	for i in dict.get("table"):
 		if i.get("gf")>i.get("ga"):
-			equipos.append([i.get("team"), i.get("gf"), i.get("ga")])
+			equipos.append([i.get("pos"), i.get("team"), i.get("gf"), i.get("ga")])
 	return equipos
 
 def rangopuntos(dict, puntosmin, puntosmay):
